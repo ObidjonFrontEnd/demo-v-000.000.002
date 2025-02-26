@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>random</title>
+	<link rel="stylesheet" href="output.css">
+</head>
+
+<body class="bg-black">
+
+	<div
+		class="max-w-[604px] min-h-[300px] flex justify-center items-center mx-auto border-solid border-[1px] rounded-[20px] border-[#999DA9] mt-[100px]">
+		<div class="">
+
+			<div class="flex items-center justify-center">
+
+				<input id="output" type="number" class="text-[50px] px-[20px] outline-none bg-transparent text-white max-w-[300px]" value="0"
+					readonly>
+
+				<div class="flex flex-col gap-y-[20px]">
+
+					<label for="minNumber" class="flex flex-col text-[#999DA9] gap-y-[5px]">
+						<span>Минимум</span>
+						<input id="minNumber" type="number"
+							class="appearance-none [-moz-appearance:textfield] [-webkit-appearance:textfield] 
+						[&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-noneoutline-none outline-none text-[20px] max-w-[200px] focus:border-b-solid focus:border-b-[3px] focus:border-b-[#7eaaff] border-b-solid border-b-[3px]  text-white px-[10px] bg-[#202124] border-b-[#999DA9]"
+							value="0">
+					</label>
+					<label for="maxNumber" class="flex flex-col text-[#999DA9] gap-y-[5px]">
+						<span>Максимум</span>
+						<input id="maxNumber" type="number"
+							class="appearance-none [-moz-appearance:textfield] [-webkit-appearance:textfield] 
+						[&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-noneoutline-none text-[20px] focus:border-b-solid focus:border-b-[3px] focus:border-b-[#7eaaff] outline-none border-b-solid border-b-[3px] text-white px-[10px] bg-[#202124] border-b-[#999DA9] max-w-[200px]"
+							value="10">
+					</label>
+
+
+				</div>
+
+			</div>
+
+			<button id="btn" class="bg-[#7eaaff] w-full py-[15px] text-[20px] font-[500] mt-[40px]">Сгенерировать</button>
+
+		</div>
+	</div>
+
+	<script src="main.js"></script>
+</body>
+
+</html>
